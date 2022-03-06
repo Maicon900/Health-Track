@@ -1,0 +1,67 @@
+body {
+    width: 100vh;
+    height: 100vh;
+    background-color: black;
+    font-family: sans-serif;
+}
+.mobile {
+    display: absolute;
+    padding-top: 20px;
+    width: 500px;
+    height: 713px;
+    justify-content: center;
+}
+.menu {
+    display: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+li {
+    padding: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+i {
+    font-size: 15px;
+    color: gray;
+}
+.initial {
+    padding-top: 50px;
+}
+button {
+    display: absolute;
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(182, 182, 182, 0.671);
+    border: none;
+    bottom: 0px;
+    border-radius: 0px 0px 15px 15px;
+}
+input, select {
+    border-radius: 15px;
+    border: none;
+    width: 370px;
+    height: 40px;
+}
+input::placeholder {
+    color: black;
+}
+
+
+
+
+
