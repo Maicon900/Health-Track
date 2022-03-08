@@ -1,66 +1,94 @@
 body {
-    width: 100vh;
-    height: 100vh;
-    background-color: black;
-    font-family: sans-serif;
-}
-.mobile {
-    display: absolute;
-    padding-top: 20px;
-    width: 500px;
-    height: 713px;
-    justify-content: center;
-}
-.menu {
-    display: absolute;
     width: 100%;
     height: 100%;
+    font-family: roboto;
+    margin: 0px;
+    background-color: black;
+}
+.mobile {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    border: 5px solid black;
+    padding: 3px;
     border-radius: 15px;
-    justify-content: center;
-    text-align: center;
     background-color: white;
 }
-img {
-    width: 30px;
-    height: 30px;
-}
-h1 {
-    font-weight: bold;
-    font-size: 50px;
+.menu {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
 }
 li {
-    padding: 15px;
-    font-size: 30px;
+    font-size: 17px;
     font-weight: bold;
+    list-style: none;
 }
-i {
-    font-size: 15px;
+li::before {
+    content: "\2022";
+    color: aqua;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+p {
+    font-weight: italic;
     color: gray;
 }
-.initial {
-    padding-top: 50px;
-}
-button {
-    display: absolute;
-    width: 100%;
-    height: 50px;
+input {
+    font-size: 15px;
     font-weight: bold;
-    font-size: 30px;
-    background-color: rgba(182, 182, 182, 0.671);
     border: none;
+    padding: 5px;
+    font-family: roboto;
+}
+select {
+    border: none;
+    margin-right: 95px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+    padding: 5px;
+    font-family: roboto;
+}
+.btn {
+    position: absolute;
     bottom: 0px;
-    border-radius: 0px 0px 15px 15px;
+    width: 100%;
+    font-weight: bold;
+    margin-left: -123px;
+    border-radius: 0px 0px 7px 7px;
+    background-color: gray;
 }
-input, select {
-    border-radius: 15px;
-    border: none;
-    width: 370px;
-    height: 40px;
-}
-input::placeholder {
+a {
+    text-decoration: none;
     color: black;
 }
-
+.animation1 {
+    animation: showtext 1.5s;
+    font-weight: bold;
+}
+.animation2 {
+    animation: showtext 2.5s;
+    font-weight: bold;
+}
+.animation3 {
+    animation: showtext 3.5s;
+    font-weight: bold;
+}
+@keyframes showtext {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 
 
